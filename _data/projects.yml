@@ -1,0 +1,10 @@
+- title: Project One
+  description: One or two lines on what it does and the result you got.
+  tech: [Python, ROS 2, PyTorch]
+  repo: https://github.com/<username>/<repo-name>
+  demo: https://example.com/demo   # optional, delete the line if none
+
+- title: Project Two
+  description: Short description of the second project.
+  tech: [C++, OpenCV]
+  repo: https://github.com/<username>/<other-repo>
