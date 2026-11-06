@@ -1,0 +1,16 @@
+<div class="projects" markdown="0">
+{% for p in site.data.projects %}
+  <div class="project">
+    <h3><a href="{{ p.repo | escape }}">{{ p.title | escape }}</a></h3>
+    <p class="project-url">{{ p.repo | remove: "https://" | escape }}</p>
+    <p>{{ p.description | escape }}</p>
+    <p class="tags">
+      {% for t in p.tech %}<span>{{ t | escape }}</span>{% endfor %}
+    </p>
+    <p class="links">
+      <a href="{{ p.repo | escape }}">GitHub</a>
+      {% if p.demo %} · <a href="{{ p.demo | escape }}">Demo</a>{% endif %}
+    </p>
+  </div>
+{% endfor %}
+</div>

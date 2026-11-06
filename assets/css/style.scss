@@ -1,11 +1,13 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "jekyll-theme-cayman";
 
-.projects { display: grid; gap: 1rem; }
+.projects { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; }
 
 .project {
+  min-width: 0;
+  overflow-wrap: anywhere;
   border: 1px solid rgba(128, 128, 128, 0.35);
   border-radius: 8px;
   padding: 1rem 1.25rem;
