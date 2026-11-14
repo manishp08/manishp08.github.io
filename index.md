@@ -1,6 +1,14 @@
 ---
 layout: default
+title: Manish
+description: Robotics and AI/ML engineer · ROS 2 · perception and navigation
 ---
+
+<p class="cta" markdown="0">
+  <a href="https://github.com/manishp08">GitHub</a>
+  <a href="mailto:pmanishkumarcareers@gmail.com">Email</a>
+  <!-- <a href="/resume.pdf">Resume</a> -->
+</p>
 
 ## About
 
@@ -8,9 +16,9 @@ I'm a robotics and AI/ML engineer with an M.S. in Robotics and Autonomous System
 
 Right now I'm building a Physical AI and robotics portfolio in ROS 2 and C++. I'm open to AI/ML and Robotics Software roles in the US and India.
 
-**Robotics:** ROS 2, Nav2, Gazebo, sensor fusion, C++
-**ML / CV:** PyTorch, YOLO, sentence-transformers, imitation learning
-**Systems:** Python, FastAPI, Linux, AWS, Git
+- **Robotics:** ROS 2, Nav2, Gazebo, sensor fusion, C++
+- **ML / CV:** PyTorch, YOLO, sentence-transformers, imitation learning
+- **Systems:** Python, FastAPI, Linux, AWS, Git
 
 ## Projects
 
