@@ -1,10 +1,10 @@
-- title: Project One
-  description: One or two lines on what it does and the result you got.
-  tech: [Python, ROS 2, PyTorch]
-  repo: https://github.com/<username>/<repo-name>
-  demo: https://example.com/demo   # optional, delete the line if none
 
-- title: Project Two
-  description: Short description of the second project.
-  tech: [C++, OpenCV]
-  repo: https://github.com/<username>/<other-repo>
+- title: Corridor-Courier-Bot
+  description: Does camera perception plus IMU fusion make indoor robot navigation safer than a LiDAR-only Nav2 stack? A 1,200-episode paired-seed ablation (DWB and MPPI), a C++ Nav2 costmap layer, and an EKF drift study that cut raw odometry drift by 78% on a 20 m loop. Results come from a 2D surrogate simulator, and the repo includes the Gazebo harness and states its limits.
+  tech: [ROS 2, Nav2, C++, Python, YOLOv8]
+  repo: https://github.com/manishp08/Corridor-Courier-Bot
+
+- title: Foldable Jerboa Robot
+  description: A foldable, laser-cut hopping robot built on an over-centering four-bar linkage, with link lengths optimized in MuJoCo and SolidWorks. Team course project (ASU, RAS557). The servos limited it to a brief ~2 mm lift-off.
+  tech: [MuJoCo, SolidWorks, Python]
+  repo: https://github.com/manishp08/Foldable_Jerboa_Robot
