@@ -3,6 +3,7 @@
   <div class="project">
     <h3><a href="{{ p.repo | escape }}">{{ p.title | escape }}</a></h3>
     <p class="project-url">{{ p.repo | remove: "https://" | escape }}</p>
+    {% if p.image %}<img src="{{ p.image | relative_url }}" alt="{{ p.title | escape }} demo" loading="lazy">{% endif %}
     <p>{{ p.description | escape }}</p>
     <p class="tags">
       {% for t in p.tech %}<span>{{ t | escape }}</span>{% endfor %}
